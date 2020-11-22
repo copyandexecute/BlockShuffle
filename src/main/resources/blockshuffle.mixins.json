@@ -14,9 +14,13 @@
     "WorldMixin",
     "entity.AnimalEntityMixin",
     "entity.MobEntityMixin",
+    "features.AbstractBlockMixin",
+    "features.AbstractTagProviderMixin",
     "features.BlockMatchRuleTestMixin",
     "features.TagMatchRuleTestMixin",
-    "nether.BasaltDetalsSurfaceBuilderMixin"
+    "nether.BasaltDetalsSurfaceBuilderMixin",
+    "nether.NetherForestVegetationFeatureMixin",
+    "nether.SoulSandValleySurfaceBuilderMixin"
   ],
   "client": [
   ],
