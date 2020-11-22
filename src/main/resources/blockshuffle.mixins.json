@@ -1,0 +1,26 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "de.hglabor.blockshuffle.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "AbstractBlockAccessor",
+    "CarverMixin",
+    "ChunkGeneratorSettingsMixin",
+    "ChunkRegionMixin",
+    "FeatureMixin",
+    "TernarySurfaceConfigMixin",
+    "WorldChunkMixin",
+    "WorldMixin",
+    "entity.AnimalEntityMixin",
+    "entity.MobEntityMixin",
+    "features.BlockMatchRuleTestMixin",
+    "features.TagMatchRuleTestMixin",
+    "nether.BasaltDetalsSurfaceBuilderMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
